@@ -2,7 +2,7 @@ require "net/http"
 require "json"
 require "csv"
 
-    KEYID = "40fedb9be1fd1b2fd51d243ff7e051dd"
+    KEYID = ENV["GRNB_ACCESS_KEY"]
     HIT_PER_PAGE = 100
     PREF = "PREF13"
     FREEWORD_CONDITION = 1
